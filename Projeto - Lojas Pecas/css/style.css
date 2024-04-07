@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    background-color: #084005;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 102px;
+    background-color: #0d6007;
+    height: 60px;
+    border-top: 1px solid black; 
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.7);
+}
+
+.menu ul {
+    display: flex;
+    align-items: center; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.menu li {
+    margin-right: 10px;
+    border-radius: 4px;
+    transition: 600ms ease-in-out;
+}
+
+.link-dark{
+    color: white !important;
+    border-radius: 5px;
+}
+
+.link-dark:hover{
+    background-color: #084005;
+}
+
+#botao-saiba-mais{
+    background-color: #0d6007;
+}
+
+footer img{
+    margin-left: 15px;
+}
+
+footer ul{
+    margin-right: 15px;
+}
+
+#Sobre{
+    margin-left: 10px;
+}
